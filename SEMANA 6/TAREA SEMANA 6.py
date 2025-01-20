@@ -52,7 +52,8 @@ class MotocicletaDeportiva(Moto):
             self.establecer_velocidad(velocidad)
             print(f"Acelerando a {velocidad} km/h")
 
-# Creación de instancias y demostración de funcionalidadvehiculo = Vehiculo("Toyota", "Corolla")
+# Creación de instancias y demostración de funcionalidad
+vehiculo = Vehiculo("Toyota", "Corolla")
 vehiculo.mostrar_informacion()
 vehiculo.establecer_velocidad(80)
 print(f"Velocidad: {vehiculo.obtener_velocidad()} km/h")
