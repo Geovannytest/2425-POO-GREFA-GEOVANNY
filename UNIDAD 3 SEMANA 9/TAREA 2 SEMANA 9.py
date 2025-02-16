@@ -65,9 +65,7 @@ def menu():
         elif opcion == '5':
             # Mostrar inventario
             inventario.mostrar_inventario()
-        elif opcion == '6':
-            # Clasificar Producto
-            clasificar.producto_clasificar()
+
 
 if __name__ == "__main__":
     menu()
